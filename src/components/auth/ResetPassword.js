@@ -1,26 +1,14 @@
 import { Grid } from "@mui/material";
 import React, { useState } from "react";
-import { createTheme, ThemeProvider } from "@mui/material/styles";
 import {
-  FormControl,Box,Alert,InputAdornment,Button,OutlinedInput,IconButton,InputLabel,
+  FormControl,Box,InputAdornment,Button,OutlinedInput,IconButton,InputLabel,
 } from "@mui/material";
 import Visibility from "@mui/icons-material/Visibility";
 import VisibilityOff from "@mui/icons-material/VisibilityOff";
-import { useNavigate, Navigate} from "react-router-dom";
+import { useNavigate} from "react-router-dom";
 import CustomAlert from '../Utlis/CustomAlert';
 
 
-
-const theme = createTheme({
-    palette: {
-      primary: {
-        light: "#d1dbe4",
-        main: "#a3b7ca",
-        dark: "#476f95",
-        darker: "#194a7a",
-      },
-    },
-  });
 
 
 const ResetPassword = () => {

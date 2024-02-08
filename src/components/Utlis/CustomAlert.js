@@ -7,11 +7,11 @@ const CustomAlert = () => {
   let message
   const [type, setType] = useState('info'); // or success, warning, error, etc.
 
-  const showAlert = (message, type) => {
+  // const showAlert = (message, type) => {
    
-    setType(type);
-    setIsVisible(true);
-  };
+  //   setType(type);
+  //   setIsVisible(true);
+  // };
 
   return (
     <div>
